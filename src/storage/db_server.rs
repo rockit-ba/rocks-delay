@@ -7,7 +7,7 @@ use chrono::Local;
 use uuid::Uuid;
 use crate::delay_queue::delay_message::DelayMessage;
 use crate::topic_queue::topic_message::{Message, TopicMessage};
-
+/// key 时间戳和 uuid 的分隔符
 const KEY_SPLIT: &str = ":";
 
 /// 存储的key 实体
